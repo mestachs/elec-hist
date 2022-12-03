@@ -1,0 +1,171 @@
+[
+ {
+  "name": {"en": "Hydro pumped storage consumption","de": "Pumpspeicher Verbrauch","fr": "Hydraulique STEP consommation","it": "Pompaggio consumo","es": "Consumo de almacenamiento por bombeo"},
+  "color": "rgb(50,50,150)",
+  "visible": false,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [-694.7,-797.4,-862.8,-853.4,-834.5,-178.3,-17.8,-6.5,-6.4,-6.0,-0.7,-6.5,-6.6,-4.7,0,0,0,0,0,0,-0.7,-0.7,-91.3,-286.1,-295.2,-773.2,-868.8,-859.1,-855.5,-362.3,-387.6,0,0,0,0,0,0,-7.1,-59.6,-53.4,0,0,-0.4,-0.7,-1.9,-89.1,-35.6,-224.0,-155.0,-346.4,-517.9,-718.4,-209.1,-202.1,null],
+  "xAxisValues": [1669852800000,1669856400000,1669860000000,1669863600000,1669867200000,1669870800000,1669874400000,1669878000000,1669881600000,1669885200000,1669888800000,1669892400000,1669896000000,1669899600000,1669903200000,1669906800000,1669910400000,1669914000000,1669917600000,1669921200000,1669924800000,1669928400000,1669932000000,1669935600000,1669939200000,1669942800000,1669946400000,1669950000000,1669953600000,1669957200000,1669960800000,1669964400000,1669968000000,1669971600000,1669975200000,1669978800000,1669982400000,1669986000000,1669989600000,1669993200000,1669996800000,1670000400000,1670004000000,1670007600000,1670011200000,1670014800000,1670018400000,1670022000000,1670025600000,1670029200000,1670032800000,1670036400000,1670040000000,1670043600000,1670047200000],
+  "format": "Highcharts",
+  "xAxisFormat": "unixTime",
+  "timeZone": "UTC",
+  "y0AxisDecimalPlaces": 1,
+  "showNavigator": true,
+  "datasource": "ENTSO-E",
+  "date": 1670052653568,
+  "stacking": "stacked_absolute_area",
+  "comment": [{"en": "Net generation of power plants for public power supply.","de": "Nettoerzeugung von Kraftwerken zur \u00f6ffentlichen Stromversorgung.","fr": "Production nette des centrales pour l'alimentation du r\u00e9seau \u00e9lectrique publique.","es": "Generaci\u00f3n neta de centrales el\u00e9ctricas para suministro p\u00fablico.","it": "Produzione netta delle centrali elettriche per l'alimentazione elettrica pubblica."}],
+  "xAxisLabel": [{"en": "Date","de": "Datum","fr": "Date","es": "Fecha","it": "Data"}],
+  "y0AxisLabel": [{"en": "Power (MW)","de": "Leistung (MW)","fr": "Puissance (MW)","es": "Potencia (MW)","it": "Prestazione (MW)"}],
+  "y0AxisLabelPercent": [{"en": "Power (%)","de": "Leistung (%)","fr": "Puissance (%)","es": "Potencia (%)","it": "Prestazione (%)"}],
+  "y1AxisLabel": [{"en": "Renewable share (%)","de": "Anteil Erneuerbare Energien (%)","fr": "Part des \u00e9nergies renouvelables (%)","it": "Quota di energie rinnovabili (%)","es": "Todo"}],
+  "y1AxisLabelPercent": [{"en": "Renewable share (%)","de": "Anteil Erneuerbare Energien (%)","fr": "Part des \u00e9nergies renouvelables (%)","it": "Quota di energie rinnovabili (%)","es": "Todo"}],
+  "y1AxisDecimalPlaces": 1,
+  "chartSubTitle": [{"en": "Original data ENTSO-E","de": "Originaldaten ENTSO-E","fr": "Donn\u00e9es d'origine ENTSO-E","es": "Datos originales ENTSO-E","it": "Dati originali ENTSO-E"}],
+  "chartTitle": [{"en": "Public net electricity generation in Belgium in December 2022","de": "\u00d6ffentliche Nettostromerzeugung in Belgien im Dezember 2022","fr": "Production publique nette d'\u00e9lectricit\u00e9 en Belgique en D\u00e9cembre 2022","es": "Generaci\u00f3n neta de electricidad p\u00fablica en Todo en Diciembre 2022","it": "Produzione pubblica netta di energia elettrica in Belgio in Dicembre 2022"}]
+ },
+ {
+  "name": {"en": "Import Balance","de": "Import Saldo","fr": "Solde des importations","it": "Saldo del Importazione","es": "Importar saldo"},
+  "color": "rgb(125,25,125)",
+  "visible": false,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [-167.6,-329.7,-552.5,-550.9,-687.8,-1532.6,-1729.3,-1340.2,-1006.3,-1209.7,-1503.6,-1558.2,-1670.7,-1791.2,-2156.5,-2057.4,-1931.9,-1677.0,-2010.5,-1860.2,-2156.3,-1667.7,-902.4,-300.7,-387.0,-82.1,-30.8,-153.9,-510.9,-1172.4,-1639.5,-2153.7,-2333.2,-2867.9,-2936.3,-3163.5,-2773.3,-2733.2,-2403.6,-2339.6,-2771.8,-2625.8,-2603.2,-2838.2,-2835.3,-2064.6,-1677.0,-882.5,-1063.7,-1092.4,-917.2,-655.4,-999.4,-1013.9,236.2]
+ },
+ {
+  "name": {"en": "Nuclear","de": "Kernenergie","it": "Nucleare","fr": "Nucl\u00e9aire","es": "Nuclear"},
+  "color": "rgb(255,0,0)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [4940.2,4940.2,4937.6,4936.3,4934.4,4936.2,4940.8,4943.9,4948.3,4947.5,4950.9,4942.6,4941.8,4935.4,4935.4,4937.1,4940.2,4940.8,4940.9,4944.4,4948.2,4950.9,4951.1,4953.0,4951.1,4948.1,4946.9,4944.4,4944.1,4943.6,4944.4,4950.4,4954.2,4958.5,4952.8,4951.6,4949.1,4951.2,4952.4,4950.4,4952.5,4954.2,4954.4,4949.4,4950.7,4952.4,4955.6,4953.7,4953.6,4952.6,4951.3,4948.1,4948.3,4949.3,null]
+ },
+ {
+  "name": {"en": "Hydro Run-of-River","de": "Laufwasser","fr": "Hydraulique fil de l'eau","it": "Acqua fluente","es": "Hidro de pasada"},
+  "color": "rgb(0,0,200)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.7,2.6,2.5,2.6,3.6,3.6,3.6,3.6,3.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,3.4,3.4,3.4,3.4,3.4,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,2.6,null]
+ },
+ {
+  "name": {"en": "Biomass","de": "Biomasse","it": "biomassa","fr": "Biomasse","es": "Biomasa"},
+  "color": "rgb(0,150,50)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [270.9,270.4,270.7,272.1,273.5,270.9,272.2,273.4,273.8,272.2,272.4,271.1,273.7,274.1,274.4,272.4,272.3,266.8,266.9,268.5,270.6,270.5,270.0,265.5,259.0,254.3,259.4,255.5,264.7,270.3,266.6,269.7,267.9,266.6,261.0,265.6,265.2,266.2,266.6,265.1,266.2,267.5,266.0,268.4,263.1,192.6,98.8,63.9,65.1,66.4,64.8,66.7,64.1,66.9,null]
+ },
+ {
+  "name": {"en": "Fossil oil","de": "\u00d6l","it": "Olio","fr": "Fioul","es": "Aceite f\u00f3sil"},
+  "color": "rgb(125,100,75)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,null]
+ },
+ {
+  "name": {"en": "Fossil gas","de": "Erdgas","it": "Gas naturale","fr": "Gaz","es": "Gas f\u00f3sil"},
+  "color": "rgb(250,150,75)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [2571.2,2596.6,2435.0,2444.1,2945.2,4049.8,4764.0,4877.9,4912.3,4858.2,4830.0,4826.6,4870.6,4894.4,4890.4,4861.4,4829.1,4860.1,4893.9,4834.4,4738.9,4218.4,3677.6,2804.3,2541.2,2447.4,2396.5,2381.5,2902.8,4056.8,4626.2,4817.3,4851.4,4790.4,4777.3,4755.0,4765.1,4662.4,4311.1,4344.8,4441.8,4388.6,4079.4,3399.6,3160.9,2409.2,1974.6,1055.0,837.9,854.2,780.0,815.1,898.2,1093.3,null]
+ },
+ {
+  "name": {"en": "Hydro pumped storage","de": "Pumpspeicher","it": "Stoccaggio idro-pompato","fr": "Hydraulique STEP","es": "Almacenamiento por bombeo"},
+  "color": "rgb(0,150,225)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [0,0,0,0,0,0,0,0,0,0,83.5,0,0,34.2,534.9,650.2,678.1,779.2,774.7,111.9,0,0,0,0,0,0,0,0,0,0,0,601.8,653.8,610.9,546.9,552.9,416.6,126.6,0,0,209.8,175.2,89.6,0,0,0,78.2,0,0,0,0,0,0,0,null]
+ },
+ {
+  "name": {"en": "Waste","de": "M\u00fcll","it": "Rifiuti","fr": "D\u00e9chets","es": "Desperdicio"},
+  "color": "rgb(84, 48, 5)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [192.7,193.6,191.3,190.9,188.2,191.1,194.4,190.1,192.8,195.7,193.7,194.8,195.8,197.3,201.4,204.9,203.6,194.7,193.6,195.9,195.0,195.8,194.8,196.3,196.7,195.6,196.2,197.1,195.4,194.6,194.8,188.9,187.1,183.3,177.7,183.7,182.8,182.6,179.4,178.3,181.2,181.6,180.7,178.8,178.3,181.0,180.3,181.2,182.1,181.9,180.8,181.2,179.7,181.9,null]
+ },
+ {
+  "name": {"en": "Wind offshore","de": "Wind Offshore","it": "Eolica offshore","fr": "\u00c9olien en mer","es": "E\u00f3licas marinas "},
+  "color": "rgb(155,175,145)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [86.7,70.0,161.8,225.5,232.3,227.8,203.7,225.9,139.5,141.6,141.3,116.0,89.9,101.8,96.0,199.5,427.6,349.4,280.8,199.2,153.8,165.6,81.1,122.7,20.0,5.4,16.8,177.9,363.1,396.0,725.1,780.7,979.4,1545.3,1799.3,1666.6,1197.4,1455.6,1698.0,1691.8,1847.4,1647.4,1527.6,1868.2,1895.3,1908.4,1915.1,1882.2,1893.9,1863.4,1786.4,1605.2,1418.8,null,null]
+ },
+ {
+  "name": {"en": "Wind onshore","de": "Wind Onshore","it": "Eolica onshore","fr": "\u00c9olien terrestre","es": "E\u00f3licas terrestres "},
+  "color": "rgb(195,215,185)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [219.5,170.9,205.3,222.2,223.9,208.2,198.3,208.4,222.9,272.2,291.9,263.6,234.1,191.2,176.6,208.7,293.2,324.7,316.1,284.6,266.2,241.0,170.8,125.0,113.9,121.0,138.1,143.2,117.8,143.4,208.7,274.8,303.0,469.0,431.1,444.4,490.1,479.4,542.9,652.0,802.5,941.1,903.6,927.3,820.5,769.0,717.2,708.4,709.4,675.9,676.4,557.7,444.4,null,null]
+ },
+ {
+  "name": {"en": "Solar","de": "Solar","it": "Solare","fr": "Solaire","es": "Solar"},
+  "color": "rgb(255,205,100)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.6,96.2,327.7,633.0,766.9,720.6,621.7,259.4,26.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,43.9,92.2,158.1,177.8,170.3,145.6,57.5,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,null]
+ },
+ {
+  "name": {"en": "Load","de": "Last","fr": "Charge","it": "Carico","es": "Carga"},
+  "color": "rgb(50,50,50)",
+  "type": "line",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": true,
+  "navigatorOptions": {"visible": true,"type": "line"},
+  "hideInPercentView": true,
+  "yAxis": 0,
+  "data": [8573.0,8223.9,7844.4,7922.8,8158.4,9086.1,9990.2,10714.2,11053.4,11223.6,11291.0,11137.9,11027.5,10950.4,10689.9,10771.1,11284.9,11549.1,11098.2,10528.0,9939.1,9854.7,9807.6,9176.1,8756.2,8210.8,8318.5,8064.1,8440.6,9212.1,10103.7,10992.4,11314.8,11501.6,11579.5,11357.9,11245.0,11003.3,11037.4,11047.5,11406.1,11500.9,11143.3,10532.9,10167.0,9730.2,9746.3,9219.2,8733.9,8343.4,8256.6,7844.8,7831.6,8123.5,8962.5]
+ },
+ {
+  "name": {"en": "Residual load","de": "Residuallast","fr": "Charge r\u00e9siduelle","it": "Carico residuo","es": "Carga residual"},
+  "color": "rgb(100,100,100)",
+  "type": "line",
+  "visible": false,
+  "showInLegend": true,
+  "hideInPercentView": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [7897.0,7613.0,7108.3,7104.8,7332.0,8281.0,9216.1,9905.3,10221.9,10109.5,9852.8,9620.2,9608.7,9660.4,9779.3,9958.2,10186.4,10507.1,10134.0,9675.0,9148.6,9077.1,9185.7,8562.2,8262.4,7729.7,7803.6,7386.4,7594.7,8302.5,8803.3,9568.3,9624.5,9034.3,8838.6,8709.1,9027.9,8562.7,8379.2,8342.1,8395.9,8550.7,8352.3,7377.1,7096.4,6767.1,6922.5,6471.5,5971.9,5644.3,5636.1,5522.1,5811.9,7963.0,8962.5]
+ },
+ {
+  "name": {"en": "Renewable share of generation","de": "Anteil EE an der Erzeugung","fr": "Part renouvelable de la g\u00e9n\u00e9ration","it": "Quota rinnovabile nella produzione","es": "Participaci\u00f3n renovable de la generaci\u00f3n"},
+  "color": "rgb(120,170,255)",
+  "type": "line",
+  "visible": false,
+  "showInLegend": true,
+  "yAxis": 1,
+  "ignoreForTooltipSum": true,
+  "data": [8.2,7.4,9.0,9.9,9.4,8.1,7.3,7.5,7.7,10.1,12.6,13.3,12.5,11.5,8.0,7.2,9.4,8.9,8.3,7.9,7.5,7.7,6.7,7.2,6.1,6.0,6.5,8.4,9.6,9.1,11.9,12.0,13.8,19.1,20.9,20.4,17.8,19.9,22.1,22.4,23.7,23.5,23.2,27.2,27.2,28.4,28.5,31.1,32.0,31.4,31.0,28.4,25.4,2.5,null]
+ },
+ {
+  "name": {"en": "Renewable share of load","de": "Anteil EE an der Last","fr": "Part renouvelable de la charge","it": "Quota rinnovabile nel carico","es": "Participaci\u00f3n renovable de la carga"},
+  "color": "rgb(251,128,114)",
+  "type": "line",
+  "visible": false,
+  "showInLegend": true,
+  "yAxis": 1,
+  "ignoreForTooltipSum": true,
+  "data": [7.9,7.4,9.4,10.3,10.1,8.9,7.7,7.6,7.5,9.9,12.7,13.6,12.9,11.8,8.5,7.5,9.7,9.0,8.7,8.1,8.0,7.9,6.3,6.7,5.6,5.9,6.2,8.4,10.0,9.9,12.9,13.0,14.9,21.5,23.7,23.3,19.7,22.2,24.1,24.5,26.4,25.7,25.0,30.0,30.2,30.5,29.0,29.8,31.6,32.4,31.7,29.6,25.8,2.0,null]
+ }
+]

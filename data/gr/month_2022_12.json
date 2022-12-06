@@ -1,0 +1,108 @@
+[
+ {
+  "name": {"en": "Import Balance","de": "Import Saldo","fr": "Solde des importations","it": "Saldo del Importazione","es": "Importar saldo"},
+  "color": "rgb(125,25,125)",
+  "visible": false,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [-1462.0,-1451.0,-1464.0,-1438.0,-1265.0,-973.0,-720.0,-447.0,-291.0,-277.0,-325.0,-281.0,-329.0,-210.0,179.0,421.0,339.0,293.0,648.0,422.0,-30.0,-386.0,-500.0,-550.0,-526.0,-444.0,-439.0,-412.0,-58.0,154.0,323.0,19.0,-485.0,-902.0,-822.0,-722.0,-487.0,-48.0,-235.0,77.0,294.0,384.0,937.0,156.0,415.0,118.0,-114.0,262.0,550.0,517.0,419.0,438.0,-246.6,-341.8],
+  "xAxisValues": [1669852800000,1669856400000,1669860000000,1669863600000,1669867200000,1669870800000,1669874400000,1669878000000,1669881600000,1669885200000,1669888800000,1669892400000,1669896000000,1669899600000,1669903200000,1669906800000,1669910400000,1669914000000,1669917600000,1669921200000,1669924800000,1669928400000,1669932000000,1669935600000,1669939200000,1669942800000,1669946400000,1669950000000,1669953600000,1669957200000,1669960800000,1669964400000,1669968000000,1669971600000,1669975200000,1669978800000,1669982400000,1669986000000,1669989600000,1669993200000,1669996800000,1670000400000,1670004000000,1670007600000,1670011200000,1670014800000,1670018400000,1670022000000,1670025600000,1670029200000,1670032800000,1670036400000,1670040000000,1670043600000],
+  "format": "Highcharts",
+  "xAxisFormat": "unixTime",
+  "timeZone": "UTC",
+  "y0AxisDecimalPlaces": 1,
+  "showNavigator": true,
+  "datasource": "ENTSO-E",
+  "date": 1670052863349,
+  "stacking": "stacked_absolute_area",
+  "comment": [{"en": "Net generation of power plants for public power supply.","de": "Nettoerzeugung von Kraftwerken zur \u00f6ffentlichen Stromversorgung.","fr": "Production nette des centrales pour l'alimentation du r\u00e9seau \u00e9lectrique publique.","es": "Generaci\u00f3n neta de centrales el\u00e9ctricas para suministro p\u00fablico.","it": "Produzione netta delle centrali elettriche per l'alimentazione elettrica pubblica."}],
+  "xAxisLabel": [{"en": "Date","de": "Datum","fr": "Date","es": "Fecha","it": "Data"}],
+  "y0AxisLabel": [{"en": "Power (MW)","de": "Leistung (MW)","fr": "Puissance (MW)","es": "Potencia (MW)","it": "Prestazione (MW)"}],
+  "y0AxisLabelPercent": [{"en": "Power (%)","de": "Leistung (%)","fr": "Puissance (%)","es": "Potencia (%)","it": "Prestazione (%)"}],
+  "y1AxisLabel": [{"en": "Renewable share (%)","de": "Anteil Erneuerbare Energien (%)","fr": "Part des \u00e9nergies renouvelables (%)","it": "Quota di energie rinnovabili (%)","es": "Todo"}],
+  "y1AxisLabelPercent": [{"en": "Renewable share (%)","de": "Anteil Erneuerbare Energien (%)","fr": "Part des \u00e9nergies renouvelables (%)","it": "Quota di energie rinnovabili (%)","es": "Todo"}],
+  "y1AxisDecimalPlaces": 1,
+  "chartSubTitle": [{"en": "Original data ENTSO-E","de": "Originaldaten ENTSO-E","fr": "Donn\u00e9es d'origine ENTSO-E","es": "Datos originales ENTSO-E","it": "Dati originali ENTSO-E"}],
+  "chartTitle": [{"en": "Public net electricity generation in Greece in December 2022","de": "\u00d6ffentliche Nettostromerzeugung in Griechenland im Dezember 2022","fr": "Production publique nette d'\u00e9lectricit\u00e9 en Gr\u00e8ce en D\u00e9cembre 2022","es": "Generaci\u00f3n neta de electricidad p\u00fablica en Todo en Diciembre 2022","it": "Produzione pubblica netta di energia elettrica in Grecia in Dicembre 2022"}]
+ },
+ {
+  "name": {"en": "Fossil brown coal / lignite","de": "Braunkohle","it": "Lignite","fr": "Lignite","es": "Lignito f\u00f3sil"},
+  "color": "rgb(150,125,100)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [684.0,677.0,676.0,672.0,704.0,697.0,727.0,733.0,651.0,605.0,597.0,556.0,557.0,633.0,685.0,677.0,680.0,706.0,709.0,718.0,717.0,731.0,732.0,703.0,721.0,701.0,687.0,685.0,690.0,700.0,693.0,692.0,691.0,721.0,785.0,859.0,863.0,858.0,875.0,879.0,885.0,888.0,886.0,887.0,890.0,885.0,877.0,853.0,877.0,868.0,888.0,891.0,null,null]
+ },
+ {
+  "name": {"en": "Fossil gas","de": "Erdgas","it": "Gas naturale","fr": "Gaz","es": "Gas f\u00f3sil"},
+  "color": "rgb(250,150,75)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [3203.0,3154.0,3061.0,3232.0,3196.0,3371.0,3188.0,3123.0,3078.0,3460.0,3583.0,3608.0,3626.0,3621.0,3466.0,3580.0,3620.0,3789.0,3637.0,3787.0,3860.0,3895.0,3659.0,3518.0,3429.0,3316.0,3362.0,3555.0,3718.0,3969.0,3659.0,3538.0,3376.0,3262.0,3098.0,3243.0,3413.0,3642.0,3860.0,3693.0,3886.0,3967.0,3676.0,3869.0,3687.0,3823.0,3622.0,3107.0,2635.0,2496.0,2414.0,2355.0,null,null]
+ },
+ {
+  "name": {"en": "Wind onshore","de": "Wind Onshore","it": "Eolica onshore","fr": "\u00c9olien terrestre","es": "E\u00f3licas terrestres "},
+  "color": "rgb(195,215,185)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [1681.0,1664.0,1665.0,1614.0,1714.0,1688.0,1683.0,1700.0,1692.0,1600.0,1466.0,1368.0,1380.0,1285.0,1219.0,1273.0,1205.0,1067.0,1050.0,959.0,777.0,576.0,525.0,552.0,538.0,476.0,430.0,408.0,328.0,284.0,254.0,229.0,185.0,147.0,114.0,95.0,78.0,83.0,62.0,66.0,65.0,68.0,78.0,178.0,111.0,122.0,151.0,182.0,259.0,278.0,356.0,500.0,523.0,614.0]
+ },
+ {
+  "name": {"en": "Solar","de": "Solar","it": "Solare","fr": "Solaire","es": "Solar"},
+  "color": "rgb(255,205,100)",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [0.0,0.0,0.0,0.0,0.0,25.0,151.0,380.0,627.0,886.0,936.0,887.0,710.0,427.0,141.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0,338.0,895.0,1403.0,1681.0,1963.0,1784.0,1392.0,830.0,263.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0]
+ },
+ {
+  "name": {"en": "Load","de": "Last","fr": "Charge","it": "Carico","es": "Carga"},
+  "color": "rgb(50,50,50)",
+  "type": "line",
+  "visible": true,
+  "showInLegend": true,
+  "showInNavigator": true,
+  "navigatorOptions": {"visible": true,"type": "line"},
+  "hideInPercentView": true,
+  "yAxis": 0,
+  "data": [4265.0,4166.0,4057.0,4179.0,4698.0,5420.0,5753.0,6104.0,6397.0,6796.0,6960.0,6926.0,6669.0,6478.0,6239.0,6491.0,6668.0,6634.0,6641.0,6299.0,5659.0,5226.0,4702.0,4343.0,4220.0,4116.0,4131.0,4315.0,4805.0,5467.0,5754.0,5770.0,5654.0,5419.0,5547.0,5511.0,5380.0,5601.0,5784.0,6190.0,6476.0,6476.0,6368.0,6097.0,5539.0,5222.0,4765.0,4431.0,4302.0,4148.0,4069.0,4174.0,4319.0,4575.0]
+ },
+ {
+  "name": {"en": "Residual load","de": "Residuallast","fr": "Charge r\u00e9siduelle","it": "Carico residuo","es": "Carga residual"},
+  "color": "rgb(100,100,100)",
+  "type": "line",
+  "visible": false,
+  "showInLegend": true,
+  "hideInPercentView": true,
+  "showInNavigator": false,
+  "yAxis": 0,
+  "data": [2584.0,2502.0,2392.0,2565.0,2984.0,3707.0,3919.0,4024.0,4078.0,4310.0,4558.0,4671.0,4579.0,4766.0,4879.0,5210.0,5463.0,5567.0,5591.0,5340.0,4882.0,4650.0,4177.0,3791.0,3682.0,3640.0,3701.0,3907.0,4477.0,5145.0,5162.0,4646.0,4066.0,3591.0,3470.0,3632.0,3910.0,4688.0,5459.0,6119.0,6411.0,6408.0,6290.0,5919.0,5428.0,5100.0,4614.0,4249.0,4043.0,3870.0,3713.0,3674.0,3796.0,3931.0]
+ },
+ {
+  "name": {"en": "Renewable share of generation","de": "Anteil EE an der Erzeugung","fr": "Part renouvelable de la g\u00e9n\u00e9ration","it": "Quota rinnovabile nella produzione","es": "Participaci\u00f3n renovable de la generaci\u00f3n"},
+  "color": "rgb(120,170,255)",
+  "type": "line",
+  "visible": false,
+  "showInLegend": true,
+  "yAxis": 1,
+  "ignoreForTooltipSum": true,
+  "data": [30.2,30.3,30.8,29.2,30.5,29.6,31.9,35.0,38.3,37.9,36.5,35.1,33.3,28.7,24.7,23.1,21.9,19.2,19.5,17.6,14.5,11.1,10.7,11.6,11.5,10.6,9.6,8.8,6.9,6.5,12.0,21.0,28.1,31.5,34.8,31.4,25.6,16.9,6.4,1.5,1.3,1.4,1.7,3.6,2.4,2.5,3.2,4.4,6.9,7.6,9.7,13.3,null,null]
+ },
+ {
+  "name": {"en": "Renewable share of load","de": "Anteil EE an der Last","fr": "Part renouvelable de la charge","it": "Quota rinnovabile nel carico","es": "Participaci\u00f3n renovable de la carga"},
+  "color": "rgb(251,128,114)",
+  "type": "line",
+  "visible": false,
+  "showInLegend": true,
+  "yAxis": 1,
+  "ignoreForTooltipSum": true,
+  "data": [39.4,39.9,41.0,38.6,36.5,31.6,31.9,34.1,36.3,36.6,34.5,32.6,31.3,26.4,21.8,19.7,18.1,16.1,15.8,15.2,13.7,11.0,11.2,12.7,12.7,11.6,10.4,9.5,6.8,5.9,10.3,19.5,28.1,33.7,37.4,34.1,27.3,16.3,5.6,1.1,1.0,1.1,1.2,2.9,2.0,2.3,3.2,4.1,6.0,6.7,8.7,12.0,12.1,14.1]
+ }
+]
